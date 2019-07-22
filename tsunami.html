@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Bug Shelter</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
+		<link href="hamburgers-master/dist/hamburgers.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<div class="product-page">
+			<div class="container">
+				<nav class="navbar">
+					<a href="index.html" class="navbar__brand"><img src="https://res.cloudinary.com/rezdelamasa/image/upload/v1563821842/TheBugShelter/image.svg" alt="" class="navbar__logo"></a>
+					<button class="navbar__expand"><i class="fas fa-bars"></i></button>
+					<div class="navbar__list">
+						<button href="#" class="navbar__link" id="AboutButton">About</button>
+						<a href="bugshelter.html" class="navbar__link">Bug Shelter</a>
+						<button href="#" class="navbar__link" id="ContactButton">Contact</button>
+					</div>
+					<!-- <button class="overlay__exit hide">x</button> -->
+				</nav>
+				<div class="overlay about hide">
+					<div class="overlay__wrapper">
+						<button class="overlay__exit overlay__exit--about">x</button>
+						<h1 class="overlay__heading">About Us</h1>
+						<p class="overlay__text">The Bug Shelter is a patent pending design that incorporates a standard L Pad Dock Seal or a Rigid Frame Shelter with an automatic Bug Screen Door. Ideal for Industrial, Food Grade or Distribution facilities that either need bug abatement solutions or just airflow throughout their warehouse. No need for invasive stand off brackets anymore. Put your bug screen doors outside and out of the way giving you more floor space to operate while minimizing accidents or damage.</p>
+						<div class="about__footer">
+							<p class="about__info">The Bug Shelter, LLC</p>
+							<p class="about__info">1013 Cool Springs Industrial Drive, O'Fallon, Mo. 63366</p>
+							<p class="about__info">Office: 636-409-1112</p>
+						</div>
+					</div>
+				</div>
+				<div class="overlay contact hide">
+					<div class="overlay__wrapper">
+						<button class="overlay__exit overlay__exit--contact">x</button>
+						<form class="contact__form" action="https://formspree.io/jeffd@thebugshelter.com" method="POST">
+							<h1 class="overlay__heading">Contact Us</h1>
+							<input class="contact__input" type="text" name="name" placeholder="Name*" required>
+							<input class="contact__input" type="email" name="email" placeholder="Email Address*" required>
+							<input class="contact__input" type="text" name="company" placeholder="Company">
+							<input class="contact__input" type="text" name="phone" placeholder="Phone Number">
+							<textarea class="contact__message" name="message" cols="30" rows="10" placeholder="Message*" required></textarea>
+							<button class="contact__submit" type="submit">Send</button>
+						</form>
+						<div class="contact__sent hide">
+							<h1 class="contact__sent-message">Your message has been sent. Thank you.</h1>
+						</div>
+					</div>
+				</div>				
+				<section class="section section--main section section--no-image">
+					<div class="section__wrapper">
+						<!-- <h1 class="section__heading">Tsunami High Speed Doors</h1> -->
+						<img class="section__logo" src="https://res.cloudinary.com/rezdelamasa/image/upload/v1563821842/TheBugShelter/tsunami-logo.svg" alt="">
+						<p class="section__text">The new Tsunami line features ULED (Ultra Low Energy Demands) High Speed Doors developed in collaboration with <a class="section__link" href="https://www.thermltec.com/" target="_blank">Therm-L Tec Systems</a>.</p>
+						<p class="section__text">Imagine cutting your high-speed door operating costs by 80-90% on our standard unit or add the optional POWER REGENERATION UNIT and feed power back into your grid making this door ENERGY NEUTRAL! Speeds in excess of 160 Inches per second & a 5-year Unlimited Cycle warranty.​</p>
+					</div>
+				</section>
+				<section class="section section--light">
+					<div class="section__wrapper section__wrapper--no-image">
+						<!-- <img class="section__image section__image--logo" src="images/tsunami-logo-s.svg" alt=""> -->
+						<h1 class="section__heading--main">Lightning Bug High Speed Door</h1>
+						<p class="section__text--main">The Tsunami line includes the Lightning Bug High Speed Door which features an exceptional new reliable motor designed for speed and high cycle usage.</p>
+						<h1 class="section__heading">Ideal for Food Grade Facilities</h1>
+						<p class="section__text">Get ultimate defense against birds and bugs with this high speed exterior door (up to 160" per second) - 160'0" width x 20'0" high. Standard high speed doors choke off the airflow while the Lightning Bug will let 65% of the breeze through your facility.</p>
+						<h1 class="section__heading">Simple Design</h1>
+						<p class="section__text">High quality aluminum extrusion construction for maximum wind resistance and built-in brush weather seal for total protection against intruders. Military grade fabric - NFPA approved flame resistance.</p>
+						<h1 class="section__heading">Exceptional Motor Reliability - New to Industry</h1>
+						<p class="section__text">At what point do standard high speed doors start needing frequent maintenance? 100,000 cycles, 500,000 cycles, 1 million cycles? How does millions of cycles sound to you with almost no maintenance? We have a 5 year maintenance with unlimited cycles. No gear boxes, no oil or grease that leaks, fanless motor operation with zero heat created. Unlimited cycles per hour. Patent pending design by Therm L Tec Sysems.</p>
+						<h1 class="section__heading">Optional Solid Vinyl Curtain Available</h1>
+						<p class="section__text">The Lighting Bug High Speed Door can also come with an additional 40 oz. vinyl curtain for the cooler months that can be swapped out in about an hour.</p>
+						<!-- <h1 class="section__heading">Location, Location, Location!</h1>
+						<p class="section__text">Put your bug screen doors outside and out of the way giving you more floor space to operate while minimizing accidents or damage. Unless this door is down, you wouldn't even know it's there.</p> -->
+					</div>
+				</section>
+				<footer>
+					<div class="section__wrapper">
+						<h2 class="footer__heading">The Bug Shelter, LLC</h2>
+						<div class="footer__info">
+							<div class="footer__section">
+								<h3 class="footer__subheading">Phone</h3>
+								<p class="footer__text">636-409-1112</p>
+							</div>
+							<div class="footer__section">
+								<h3 class="footer__subheading">Office</h3>
+								<p class="footer__text">1013 Cool Springs Industrial Drive, O'Fallon, MO 63366</p>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="scripts.js"></script>
+	</body>
+</html>
