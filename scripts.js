@@ -77,22 +77,22 @@ productExit.forEach(function(button) {
 	});
 });
 
-var contactForm = document.querySelector(".contact__form");
-contactForm.addEventListener("submit", function(e) {
-	// e.preventDefault();
-	console.log(this);
-	this.classList.add("hide");
-	var contactSent = document.querySelector(".contact__sent");
-	contactSent.classList.remove("hide");
-	this.reset();
-	// setTimeout(function() {
-	// 	contactForm.classList.remove("hide");
-	// 	contactSent.classList.add("hide");
-	// }, 2000);
-	setTimeout(function() {
-		window.location.reload(true);
-	}, 2000);
-});
+// var contactForm = document.querySelector(".contact__form");
+// contactForm.addEventListener("submit", function(e) {
+// 	// e.preventDefault();
+// 	console.log(this);
+// 	this.classList.add("hide");
+// 	var contactSent = document.querySelector(".contact__sent");
+// 	contactSent.classList.remove("hide");
+// 	this.reset();
+// 	// setTimeout(function() {
+// 	// 	contactForm.classList.remove("hide");
+// 	// 	contactSent.classList.add("hide");
+// 	// }, 2000);
+// 	setTimeout(function() {
+// 		window.location.reload(true);
+// 	}, 2000);
+// });
 
 
 // document.getElementById("ContactButton").addEventListener("click", function() {
