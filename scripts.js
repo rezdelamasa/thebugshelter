@@ -79,7 +79,7 @@ productExit.forEach(function(button) {
 
 var contactForm = document.querySelector(".contact__form");
 contactForm.addEventListener("submit", function(e) {
-	e.preventDefault();
+	// e.preventDefault();
 	console.log(this);
 	this.classList.add("hide");
 	var contactSent = document.querySelector(".contact__sent");
